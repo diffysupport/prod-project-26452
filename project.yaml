@@ -2,7 +2,7 @@ basic:
     name: 'Teste entre Figma e projeto'
     environments:
         production: 'https://alojamentoprod.dev11.javali.pt/'
-        staging: 'https://i.imgur.com/RrTRIqr.png'
+        staging: 'https://i.imgur.com/RrTRIqr_d.webp?maxwidth=760&fidelity=grand'
         development: ''
     breakpoints:
         - 640
@@ -28,7 +28,19 @@ advanced:
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content: ''
+    mock_content:
+        - { selector: '', type: title }
+    login:
+        type: none
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
     performance:
         workers_production: 30
         workers_nonproduction: 10
